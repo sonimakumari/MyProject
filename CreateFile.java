@@ -7,13 +7,17 @@ public class CreateFile {
     try {
       File myObj = new File("/Users/sonimamishra/Documents/Sonima/filename.txt");
       if (myObj.createNewFile()) {
-        System.out.println("File created: " + myObj.getName());
+        printMessage("File Created.");
       } else {
-        System.out.println("File already exists.");
+        printMessage("File already exists.");
       }
     } catch (IOException e) {
-      System.out.println("An error occurred.");
+      printMessage("An error occurred.");
       e.printStackTrace();
     }
+  }
+  public printMessage(String msg)
+  {
+	  system.out.println(msg);
   }
 }
