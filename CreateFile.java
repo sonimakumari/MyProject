@@ -18,6 +18,6 @@ public class CreateFile {
   }
   public static void printMessage(String msg)
   {
-	  system.out.println(msg);
+	  System.out.println(msg);
   }
 }
