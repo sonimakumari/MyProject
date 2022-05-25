@@ -16,7 +16,7 @@ public class CreateFile {
       e.printStackTrace();
     }
   }
-  public printMessage(String msg)
+  public void printMessage(String msg)
   {
 	  system.out.println(msg);
   }
